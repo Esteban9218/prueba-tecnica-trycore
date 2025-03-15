@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  frontend:
+  angular-app:
     build: .
     ports:
-      - "4200:8083"
+      - "8080:80"
     restart: always
