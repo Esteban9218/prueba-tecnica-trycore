@@ -1,3 +1,12 @@
+# Frontend dockerizado alojado en Dockerhub
+
+Para descargar e instalar se debe ejecutar
+
+docker push esteban713/task-manager-e-angular-app:latest
+docker run -d -p 8080:80 esteban713/task-manager-e-angular-app:latest
+
+
+
 # TaskManagerE
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.2.
