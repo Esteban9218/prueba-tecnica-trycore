@@ -1,10 +1,11 @@
 # Frontend dockerizado alojado en Dockerhub
 
-Para descargar e instalar se debe ejecutar
+Para descargar e instalar se debe ejecutar:
 
+```bash
 docker push esteban713/task-manager-e-angular-app:latest
 docker run -d -p 8080:80 esteban713/task-manager-e-angular-app:latest
-
+```
 
 
 # TaskManagerE
